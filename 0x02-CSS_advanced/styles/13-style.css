@@ -50,24 +50,19 @@ body {
     font-weight: var(--font-weight-regular);
 }
 
-a {
-    text-decoration: none;
-}
-
-a:visited {
+/* Target the visited state for the link */
+a[href]:visited {
     font-style: italic;
 }
 
-a:hover {
+/* Target the hover state for the link */
+a[href]:hover {
     text-decoration: underline;
 }
 
-a:active {
+/* Target the active state for the link */
+a[href]:active {
     background-color: var(--color-light-grey);
-}
-
-.section-header {
-    text-align: var(--section-header-align);
 }
 
 .section-title {

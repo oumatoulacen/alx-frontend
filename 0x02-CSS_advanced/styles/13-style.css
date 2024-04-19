@@ -50,6 +50,10 @@ body {
     font-weight: var(--font-weight-regular);
 }
 
+a {
+    text-decoration: none;
+}
+
 /* Target the visited state for the link */
 a[href]:visited {
     font-style: italic;
@@ -63,6 +67,14 @@ a[href]:hover {
 /* Target the active state for the link */
 a[href]:active {
     background-color: var(--color-light-grey);
+}
+
+.section-title {
+    font-family: var(--font-family-title);
+    font-size: var(--font-size-xx-large);
+    font-weight: var(--font-weight-bold);
+    margin: var(--section-title-margin);
+    color: var(--section-title-color);
 }
 
 .section-title {

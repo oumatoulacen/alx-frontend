@@ -50,7 +50,8 @@ body {
     font-weight: var(--font-weight-regular);
 }
 
-a {
+a:link {
+    color: var(--text-color);
     text-decoration: none;
 }
 

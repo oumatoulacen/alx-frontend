@@ -42,12 +42,9 @@ html {
 body {
     font-family: var(--font-family-base);
     line-height: var(--line-height-base);
-    color: var(--text-color);
-}
-
-body {
     font-size: var(--font-size-medium);
     font-weight: var(--font-weight-regular);
+    color: var(--text-color);
 }
 
 a:link {

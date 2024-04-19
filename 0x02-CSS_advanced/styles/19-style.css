@@ -27,6 +27,7 @@
 
     --section-header-align: center;
     --section-tagline-transform: uppercase;
+    --section-tagline-margin: 0;
     --section-title-margin: 0;
     --section-title-color: var(--color-black);
     --section-padding: 5rem 0;
@@ -88,6 +89,12 @@ a:active {
 
 .visually-hidden {
     display: none;
+}
+
+.container {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .navbar-menu {
@@ -171,12 +178,6 @@ ul.row {
     width: 50%;
     float: left;
     padding: 0.5rem;
-}
-
-.container {
-    width: 960px;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .footer {

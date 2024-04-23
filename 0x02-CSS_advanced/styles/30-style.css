@@ -290,7 +290,7 @@ a:active {
 
 .card-work .card-title a {
     display: block;
-    text-decoration: underline;
+    text-decoration: none;
     padding-top: 45%;
 }
 
